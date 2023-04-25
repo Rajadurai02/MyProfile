@@ -57,7 +57,7 @@ body{
 .nav-icon-container a{
     color: #fff;
     text-decoration: none;
-    padding:10px 20px;
+    padding:20px 30px;
     display:block;
 }
 .nav-icon-container a:hover{
@@ -84,8 +84,8 @@ body{
     padding:5px;
 }
 .social-icons img{
-    width:24px;
-    height:24px;
+    width:30px;
+    height:30px;
     border-radius: 50%;
 }
 .middle-content-container{    
@@ -168,7 +168,52 @@ body{
     width:75%;
     border-radius:30px;
 }
-
+.about-text-container h3{
+    color: #fff;
+}
+.about-text-container h6{
+    color:var(--background);
+}
+.about-text-container p{
+    color:#fffa;
+}
+.stats-container{
+    display: flex;
+    column-gap: 20px;
+    background-color: var(--background);
+    border-radius: 40px;
+    max-width: 600px;
+    height: 80px;
+    margin: 0 auto;
+    z-index: 100;
+    position: relative;
+    box-shadow: 0px 0px 10px var(--background);
+    align-items: center;
+    justify-content: center;
+}
+.about-horizontal-line{
+    width:100%;
+    height:1px;
+    background-color: #fffa;
+    position: relative;
+    top:40px;
+}
+.stat-container{
+    width:30%;
+    padding:10px;
+}
+.stat-container h4, .stat-container h6{
+    text-align:center;
+    color:var(--bg2);
+}
+.stat-container .stat-value{    
+    font-weight:600;
+}
+.vertical-stat-line{
+    width: 2px;
+    height: 80%;
+    background-color: var(--bg2);
+}
 /* Media Queries */
 @media (max-width:935px){
     .middle-content-container .image-container img{
