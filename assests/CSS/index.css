@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 :root{
-    --background:#fd3e58;
+    --background:#70b5d6;
     --bg2:#18315b;
-    --highlight1:#c5e46e;
-    --highlight2: #00a1e2;
 }
 body{
     margin:0px;
@@ -29,7 +27,7 @@ body{
     box-shadow: 0px -10px 30px var(--background);
     background-color: var(--bg2);
     position: fixed;
-    z-index:100;
+    z-index:101;
 }
 .logo-container{
     margin:0px 10px;
@@ -61,7 +59,7 @@ body{
     display:block;
 }
 .nav-icon-container a:hover{
-    background-color: #4c476f;
+    background-color: #fff;
     color:var(--background);
 }
 .body-content{
@@ -205,6 +203,7 @@ body{
 .stat-container h4, .stat-container h6{
     text-align:center;
     color:var(--bg2);
+    font-size:16px;
 }
 .stat-container .stat-value{    
     font-weight:600;
@@ -214,6 +213,16 @@ body{
     height: 80%;
     background-color: var(--bg2);
 }
+.timeline-title{
+    color:var(--background);
+}
+.bg-timeline{
+    background-color: var(--background);
+}
+.timeline-nodes time{
+    color:#fff;
+}
+
 /* Media Queries */
 @media (max-width:935px){
     .middle-content-container .image-container img{
