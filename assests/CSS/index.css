@@ -223,6 +223,33 @@ body{
     color:#fff;
 }
 
+.portfolio-container{
+    width:100%;
+}
+
+.portfolio-accordian-container{
+    margin:20px 7%;
+}
+
+details{
+    display: flex;    
+    border-radius: 5px;
+    overflow: hidden;
+    padding:15px;
+    margin-bottom: 20px;
+}
+
+.tech-skills,.projects{
+    border-left:20px solid #FFC48B;
+    background-color: #fff6ee;
+}
+
+.soft-skills,.certifications{
+    border-left:20px solid #FFB3C0;
+    background-color: #fff0f3;
+}
+
+
 /* Media Queries */
 @media (max-width:935px){
     .middle-content-container .image-container img{
